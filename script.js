@@ -40,7 +40,17 @@ if (confirm("Should password contain uppercase letters?")) {
   Array.prototype.apply(allChars, abcUpperArr);
 }
 
+if (confirm("Should password contain lower letters?")) {
+  Array.prototype.apply(allChars, abcLowerArr);
+}
 
+if (confirm("Should password contain number?")) {
+  Array.prototype.apply(allChars, numArr);
+}
+
+if (confirm("Should password contain symbols?")) {
+  Array.prototype.apply(allChars, symArr);
+}
 
   return password;
 }
