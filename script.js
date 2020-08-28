@@ -32,7 +32,13 @@ let symArr = sym.split("");
 
 let passLength = prompt("How many character would you like your password (8-128)");
 
+if (passLength < 8 || passLength > 128){
+  alert("Password can only be a whole number between 8 and 128");
+}
 
+if (confirm("Should password contain uppercase letters?")) {
+  Array.prototype.apply(allChars, abcUpperArr);
+}
 
 
 
