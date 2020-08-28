@@ -17,9 +17,20 @@ function writePassword() {
  * generate a password based on certain criteria
  */
 function generatePassword(){
+let abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let abcUpperArr = abcUpper.split("");
+let abcLower = "abcdefghijklmnopqrstuvwxyz";
+let abcLower = abcLower.split("");
+let num = "1234567890";
+let numArr = num.split("");
+let sym = "!@#$%^&*()_+-=[]\{}|;:,./<>`~";
+let symArr = sym.split("");
 
   // Password is currently blank! We need to make a better one
   let password = "";
+  let allChars = [];
+
+
 
 
 
