@@ -20,7 +20,7 @@ function generatePassword(){
 let abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let abcUpperArr = abcUpper.split("");
 let abcLower = "abcdefghijklmnopqrstuvwxyz";
-let abcLower = abcLower.split("");
+let abcLowerArr = abcLower.split("");
 let num = "1234567890";
 let numArr = num.split("");
 let sym = "!@#$%^&*()_+-=[]\{}|;:,./<>`~";
@@ -30,7 +30,7 @@ let symArr = sym.split("");
   let password = "";
   let allChars = [];
 
-
+let passLength = prompt("How many character would you like your password (8-128)");
 
 
 
