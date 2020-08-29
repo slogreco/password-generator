@@ -24,26 +24,46 @@ function generatePassword() {
 
   let abcUpperArr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let abcLowerArr = "abcdefghijklmnopqrstuvwxyz";
-  let numArr = "1234567890"; 
-  let symArr = "!@#$%^&*()_+-=[]\{}|;:,./<>`~";
-  
+  let numArr = "1234567890";
+  let specialArr = "!@#$%^&*()_+-=[]\{}|;:,./<>`~";
 
-  // Password is currently blank! We need to make a better one
-  let password = "";
-  let allChars = [];
-  let passLength = 0;
-
-  passLength = prompt("How many character would you like your password (8-128)");
+  let passLength = prompt("How many character would you like your password (8-128)");
 
   if (passLength < 8 || passLength > 128) {
     alert("Password can only be a whole number between 8 and 128");
   }
 
-  for (let i = 0; i < length, i++;) {
-    let random = math.floor(math.random().length);
-    password = allChars[random];
-  return password;
+  // Password is currently blank! We need to make a better one
+  let password = "";
+  let charArr = "";
+  
+
+  if (abcUpper) {
+    charArr = charArr + abcUpperArr
   }
+
+  if (abcLower) {
+    charArr = charArr + abcLowerArr
+  }
+
+  if (num) {
+    charArr = charArr + numArr
+
+  }
+
+  if (special) {
+    charArr = charArr + specialArr
+  }
+console.log(passLength);
+
+  for (let i = 0; i < passLength; i++) {
+    let random = Math.floor(Math.random() * charArr.length);
+    password = password + charArr[random];
+
+  }
+  console.log(password);
+
+  return password;
 }
 
 // Add event listener to generate button
