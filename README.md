@@ -1,47 +1,90 @@
-# 03 JavaScript: Password Generator
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+<h2 align = "center"><strong> Password Generator </strong></h2>
+  
+<p align = "center"> Random password generator using JavaScript. The user will get a prompt asking if the password should contain uppercase characters. Then lower case characters. Then should the password contain numbers. Then should the password contain special characters. Lastly they are asked to choose a password length between 8-128 characters. Then a random password will be generated in the box.
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+<a href= "https://github.com/slogreco/password-generator"> Explore the Repo </a>
 
-## User Story
+<a href= "https://slogreco.github.io/password-generator"> View Deployment </a>
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+<a href="https://github.com/slogreco/password-generator/issues">Report Bug/Request Features</a>
 
-## Acceptance Criteria
+</p>
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+<img src= "/Assets/03-javascript-homework-demo.png" alt = "screenshot">
 
-The following image demonstrates the application functionality:
+## Table of Contents
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
 
-## Review
+* [Installation](#installation)
 
-You are required to submit the following for review:
+* [Usage](#usage)
 
-* The URL of the deployed application.
+* [Contributing](#contributing)
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* [Tests](#tests)
 
-- - -
+* [Questions](#questions)
+
+* [License](#license)
+
+## Installation
+
+1. Clone the repo
+
+  git clone https://github.com/slogreco/password-generator.git
+
+2. Installation
+
+<p>none</p>
+
+## Usage
+
+<p>Open in default browser</p>
+
+## Contributing
+
+Contributions are what make the open source community an amazing place to be learn, create, and inspire. All contributions you would like to make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout - b feature / NewFeature)
+3. Commit your Changes (git commit - m 'Add some NewFeature')
+4. Push to the Branch (git push origin feature / NewFeature)
+5. Open a Pull Request
+
+
+## Tests
+
+<p>none</p>
+
+## Questions
+
+[Send me an Email](mailto:shoshanahlogreco@gmail.com) 
+
+[Reach out to me on Github](https://github.com/slogreco)
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Shoshanah Lo Greco
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+  
